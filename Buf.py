@@ -8,7 +8,7 @@ class buff:
         return matrix
 
 
-size = int(input("Сколько элементов массива потребуется?: "))
+size = int(input("Сколько элементов списка потребуется?: "))
 matrixOne = []
 for i in range(size):
     matrixOne.append(int(input(f"Введите {i} число списка: ")))
